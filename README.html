@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SysOptimizer - README</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: #121212;
@@ -39,6 +40,44 @@
             padding-left: 16px;
             color: #cccccc;
             margin: 16px 0;
+        }
+        .support-section {
+            background-color: #1e1e1e;
+            border: 2px solid #bb86fc;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(187, 134, 252, 0.3);
+        }
+        .developer-signature {
+            text-align: center;
+        }
+        .coffee-options {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+        .coffee-btn {
+            background: linear-gradient(145deg, #bb86fc, #9965d4);
+            color: #e0e0e0;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .coffee-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        .dev-signature {
+            font-family: 'Dancing Script', cursive;
+            color: #bb86fc;
+            margin-top: 1.5rem;
+            opacity: 0.8;
+            font-size: 1.2rem;
         }
     </style>
 </head>
@@ -104,6 +143,20 @@ pip install -r requirements.txt
         <p><strong>Customer Situation</strong>: Jane notices her Windows PC has become slow over time, especially when opening applications and browsing files. She wants a quick solution to clean up her system and boost performance without manually tweaking settings.</p>
         <p><strong>Solution</strong>: Jane downloads SysOptimizer, runs the script as an administrator, and within minutes, her system is cleaned and optimized. The CPU and memory usage drops, and her PC feels significantly faster. Jane appreciates the easy-to-use tool and the improvement in her daily computer usage.</p>
     </blockquote>
+
+    <div class="support-section">
+        <h2>Support the Developer</h2>
+        <div class="developer-signature">
+            <p>👋 Hi, I'm KayWat! I created this tool to help optimize your Windows system performance.</p>
+            <p>If you find this tool valuable, consider supporting my work:</p>
+            <div class="coffee-options">
+                <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L&custom=1coffee" class="coffee-btn">☕ One Coffee ($6)</a>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L&custom=2coffees" class="coffee-btn">☕☕ Two Coffees ($12)</a>
+                <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L&custom=3coffees" class="coffee-btn">☕☕☕ Three Coffees ($24)</a>
+            </div>
+            <p class="dev-signature">Made with ❤️ by KayWat</p>
+        </div>
+    </div>
 
     <h2>Contributing</h2>
     <p>Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.</p>
